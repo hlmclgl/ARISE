@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { FreeCounter } from "./free-counter";
 
-const poppins = League_Spartan({ weight: "700", subsets: ["latin"] });
+const poppins = Montserrat({ weight: "700", subsets: ["latin"] });
 
 const routes = [
   {
@@ -33,6 +33,12 @@ const routes = [
     color: "text-violet-500",
   },
   {
+    label: "Music Generation",
+    icon: Music,
+    color: "text-emerald-500",
+    href: "/music",
+  },
+  {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-pink-700",
@@ -43,12 +49,6 @@ const routes = [
     icon: VideoIcon,
     color: "text-orange-700",
     href: "/video",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    color: "text-emerald-500",
-    href: "/music",
   },
   {
     label: "Code Generation",
@@ -79,12 +79,10 @@ const Sidebar = ({ apiLimitCount = 0, isPro = false }: SidebarProps) => {
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-3xl font-bold", poppins.className)}>
-            Genius
+            Arise AI
           </h1>
         </Link>
-        <div className="space-y-1">
-          <p>Artificial Responsive Intelligence System </p>
-        </div>
+
         <div className="space-y-1">
           {routes.map((route) => (
             <Link

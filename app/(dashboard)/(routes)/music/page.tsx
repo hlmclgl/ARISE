@@ -55,7 +55,7 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Music Generator"
-        description="Turn your prompt into music."
+        description="Step into the realm of musical creativity with our cutting-edge Music Generator."
         icon={Music}
         iconColor="text-emerald-700"
         bgColor="bg-emerald-700/10"
@@ -86,7 +86,7 @@ const MusicPage = () => {
                       className="border-0 outline-none 
                                 focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading}
-                      placeholder="Piano solo ..."
+                      placeholder="Electric guitar..."
                       {...field}
                     />
                   </FormControl>

@@ -65,7 +65,7 @@ const ConversationPage = () => {
     <div>
       <Heading
         title="Conversation"
-        description="Our most advanced conversation system."
+        description="Introducing our innovative chatbot – your digital companion for seamless interactions!"
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"

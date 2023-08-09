@@ -66,7 +66,7 @@ const CodePage = () => {
     <div>
       <Heading
         title="Code Generation"
-        description="Generate code using descriptive text."
+        description="Say goodbye to manual coding and hello to efficiency and precision."
         icon={Code}
         iconColor="text-green-700"
         bgColor="bg-green-700/10"
@@ -97,7 +97,7 @@ const CodePage = () => {
                       className="border-0 outline-none 
                                 focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading}
-                      placeholder="Simple toggle button using react hooks."
+                      placeholder="Python variable examples."
                       {...field}
                     />
                   </FormControl>
