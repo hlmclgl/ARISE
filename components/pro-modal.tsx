@@ -3,7 +3,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Check, Zap } from "lucide-react";
-// import { toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 
 import {
   Dialog,
@@ -22,6 +22,7 @@ import { cn } from "@/lib/utils";
 
 export const ProModal = () => {
   const proModal = useProModal();
+
   const [loading, setLoading] = useState(false);
 
   const onSubscribe = async () => {
@@ -31,8 +32,8 @@ export const ProModal = () => {
 
       window.location.href = response.data.url;
     } catch (error) {
-      //   toast.error("Something went wrong");
-      console.log(error);
+      toast.error("Something went wrong");
+      console.log(error, "STRIPE_CLIENT_ERROR");
     } finally {
       setLoading(false);
     }
