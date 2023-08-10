@@ -52,7 +52,7 @@ https://github.com/hlmclgl/ARISE/assets/77545449/9f27f779-ac13-46c6-b250-b7caf52
 <p >Account Page : </p>
 <p align="center"><img src="https://raw.githubusercontent.com/hlmclgl/ARISE/master/public/images/account.png" alt="project-screenshot" ></p>
 
-<p >Sidebar : </p>
+<p >Sidebar & Free Limit Counter : </p>
 <p align="center"><img src="https://raw.githubusercontent.com/hlmclgl/ARISE/master/public/images/sidebar.png" alt="project-screenshot" ></p>
 
 <p >Pro Plan Pop-up : </p>
@@ -71,8 +71,8 @@ https://github.com/hlmclgl/ARISE/assets/77545449/9f27f779-ac13-46c6-b250-b7caf52
 
 Here're some of the project's best features:
 
-*  PrismaDB and PostgreSQL Database processing
-*  Tailwind design for stylish user interface
+-  PrismaDB and PostgreSQL Database processing
+-  Tailwind design for stylish user interface
 - Tailwind animations and transition effects
 - Full responsiveness for all devices (mobile, tablet and pc)
 - Authentication with PrismaDB
